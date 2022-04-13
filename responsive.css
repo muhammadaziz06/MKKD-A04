@@ -7,6 +7,10 @@
   .heading h2 {
     font-size: 20px;
   }
+  
+  .border {
+    width: auto;
+  }
 
   .categories {
     height: auto;
@@ -62,6 +66,10 @@
   .top-wrapper p {
     font-size: 14px;
     line-height: 20px;
+  }
+  
+  .border {
+    width: auto;
   }
 
   .categories__list {
