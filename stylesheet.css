@@ -1,0 +1,270 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.7;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* Main.css */
+.top-wrapper {
+  padding: 100px 0 60px 0;
+  background-image: url(./assets/img/main.jpg);
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 1;
+  font-size: 40px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 1;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.google {
+  background-color: #fd5d5d;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+/* HEADER */
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(88, 114, 206, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.header-left a {
+  color: white;
+}
+
+.header-list {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-list a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-list a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* CATEGORIES */
+
+.categories__title {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.categories__list {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  opacity: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+  color: white;
+}
+
+.category:nth-child(2) .category__icon {
+  background: rgb(191, 191, 68);
+}
+
+.category:nth-child(3) .category__icon {
+  background: rgb(187, 70, 125);
+}
+
+.category:nth-child(4) .category__icon {
+  background: rgb(244, 165, 17);
+}
+
+.category:nth-child(5) .category__icon {
+  background: rgb(49, 239, 173);
+}
+
+.category {
+  background: #6a71c3;
+  padding: 2rem;
+  border-radius: 2rem;
+  transition: all 400ms ease;
+}
+
+.category:hover {
+  box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.category__icon {
+  background: #6c63ff;
+  padding: 0.7rem;
+  border-radius: 0.9rem;
+}
+
+.category h5 {
+  margin: 2rem 0 1rem;
+}
+
+.category p {
+  font-size: 0.85rem;
+}
+
+/* CONTACT US */
+.section-contact {
+  background: #0c2149;
+  background-size: auto;
+  padding: 110px 0;
+}
+.section-contact h1 {
+  text-align: center;
+  color: white;
+}
+.border {
+  width: 600px;
+  height: 5px;
+  background: rgb(69, 69, 158);
+  margin: 40px auto;
+}
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+}
+.contact-form-text {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: rgb(69, 69, 158);
+  padding: 20px 40px;
+  outline: none;
+  color: white;
+  transition: 0.5s;
+}
+::placeholder {
+  color: white;
+}
+.contact-form-text:hover {
+  box-shadow: 0 0 10px 4px rgb(136, 150, 231);
+}
+textarea.contact-form-text {
+  resize: none;
+  height: 100px;
+}
+.contact-form-btn {
+  float: right;
+  border: 0;
+  background: rgb(69, 69, 158);
+  padding: 10px 54px;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.5s;
+  font-weight: bold;
+}
+.contact-form-btn:hover {
+  background: rgb(28, 28, 165);
+}
+
+/* ----------- FOOTER --------- */
+footer {
+  color: #ffffff;
+  background-color: #3568c7;
+  box-sizing: border-box;
+  width: 100%;
+  font: 16px;
+  padding: 40px;
+  margin-top: 0;
+  display: flex;
+}
+.footer-logo {
+  float: left;
+}
+
+footer li {
+  list-style: none;
+}
+
+.footer-list {
+  float: right;
+}
+
+footer li a,
+.footer-copyright {
+  color: #ffffffa6;
+}
+
+footer li a:hover {
+  color: #ffffff;
+}
